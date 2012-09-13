@@ -15,7 +15,6 @@ public class RoboNXT {
 		this.saidaNXT = saida;
 
 
-
 	}
 
 	public void andarPraFrente()

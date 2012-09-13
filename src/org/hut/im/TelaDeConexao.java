@@ -147,7 +147,7 @@ public class TelaDeConexao extends Activity implements AdapterView.OnItemClickLi
         		registerReceiver(bluetoohState, new IntentFilter(actionStateChanged));
         		startActivityForResult(new Intent(enableBT),0);
         		
-        		Toast.makeText(this, "N�o est� ativado", Toast.LENGTH_LONG).show();
+        		Toast.makeText(this, "Nao esta ativado", Toast.LENGTH_LONG).show();
         	}
         	else //bluetooth está ativado
         	{   
