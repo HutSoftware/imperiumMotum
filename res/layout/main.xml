@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    >
+    
+    <!--Digitalizado por Jean Loko-->
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:gravity="center_horizontal"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/botao1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="20px"
+    android:layout_marginLeft="20px"
+    android:drawableTop="@drawable/setapracima"
+    android:background="@drawable/custom_button" android:gravity="center_horizontal"/>
+    <Button
+        	android:id="@+id/btnParar"
+        	android:layout_width="fill_parent"         	
+			android:layout_height="wrap_content"
+			android:layout_below="@id/botao1"
+			android:text="Parar"
+    />
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/botao2"    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"
+    android:layout_below="@id/btnParar"
+    android:layout_marginTop="20px"
+    android:layout_marginLeft="20px"
+    android:drawableTop="@drawable/setaprabaixo"
+    android:background="@drawable/custom_button"
+    android:gravity="center_horizontal"/>
+    </RelativeLayout>
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/layout1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    >
+       ﻿
+    <Button
+        	android:id="@+id/btnParar" 
+        	android:gravity="center_vertical"
+        	android:layout_width="wrap_content"         	
+			android:layout_height="wrap_content"
+			android:text="Parar"
+        />﻿
+       
+    </RelativeLayout>   
+    
+<!-- ' <Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnParar"    
+    android:layout_width="200px"
+    android:layout_height="83px" 
+    android:layout_below="@id/botao1"
+ />
+     -->
+</RelativeLayout>
